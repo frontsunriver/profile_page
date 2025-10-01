@@ -62,7 +62,7 @@ export interface ProfileConfig {
 
 export const profileConfig: ProfileConfig = {
   personal: {
-    name: "John Doe",
+    name: "Wang Zeng Xiang",
     title: "Full Stack Developer",
     subtitle: "Building amazing digital experiences",
     bio: "Passionate full-stack developer with 5+ years of experience creating scalable web applications. I love turning complex problems into simple, beautiful, and intuitive solutions.",
@@ -71,7 +71,7 @@ export const profileConfig: ProfileConfig = {
     phone: "+1 (555) 123-4567",
     website: "https://johndoe.dev",
     linkedin: "https://linkedin.com/in/johndoe",
-    github: "https://github.com/johndoe",
+    github: "https://github.com/frontsunriver",
     twitter: "https://twitter.com/johndoe"
   },
   experience: {
@@ -128,7 +128,7 @@ export const profileConfig: ProfileConfig = {
         name: "E-Commerce Platform",
         description: "A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard.",
         technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
-        github: "https://github.com/johndoe/ecommerce-platform",
+        github: "https://github.com/frontsunriver/ecommerce-platform",
         live: "https://ecommerce-demo.com",
         image: "/images/ecommerce.jpg"
       },
@@ -136,7 +136,7 @@ export const profileConfig: ProfileConfig = {
         name: "Task Management App",
         description: "A collaborative task management application with real-time updates, team collaboration features, and project tracking.",
         technologies: ["Next.js", "TypeScript", "MongoDB", "Socket.io", "Tailwind CSS"],
-        github: "https://github.com/johndoe/task-manager",
+        github: "https://github.com/frontsunriver/task-manager",
         live: "https://taskmanager-demo.com",
         image: "/images/taskmanager.jpg"
       },
@@ -144,7 +144,7 @@ export const profileConfig: ProfileConfig = {
         name: "Weather Dashboard",
         description: "A responsive weather dashboard with location-based forecasts, interactive maps, and data visualization.",
         technologies: ["Vue.js", "Chart.js", "OpenWeather API", "PWA"],
-        github: "https://github.com/johndoe/weather-dashboard",
+        github: "https://github.com/frontsunriver/weather-dashboard",
         live: "https://weather-demo.com",
         image: "/images/weather.jpg"
       }
