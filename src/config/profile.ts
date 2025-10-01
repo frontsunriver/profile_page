@@ -63,9 +63,9 @@ export interface ProfileConfig {
 export const profileConfig: ProfileConfig = {
   personal: {
     name: "Wang Zeng Xiang",
-    title: "Full Stack Developer",
+    title: "Senior Full Stack Engineer",
     subtitle: "Building amazing digital experiences",
-    bio: "Passionate full-stack developer with 5+ years of experience creating scalable web applications. I love turning complex problems into simple, beautiful, and intuitive solutions.",
+    bio: "Passionate senior full stack engineer with 11+ years of experience creating scalable web applications. I love turning complex problems into simple, beautiful, and intuitive solutions.",
     location: "Hong Kong",
     email: "john.doe@email.com",
     phone: "+1 (555) 123-4567",
@@ -154,16 +154,10 @@ export const profileConfig: ProfileConfig = {
     title: "Education",
     items: [
       {
-        institution: "University of California, Berkeley",
-        degree: "Bachelor of Science in Computer Science",
-        duration: "2015 - 2019",
-        description: "Graduated Magna Cum Laude with focus on software engineering and data structures."
-      },
-      {
-        institution: "Stanford University",
-        degree: "Machine Learning Specialization",
-        duration: "2020",
-        description: "Online specialization covering machine learning algorithms and applications."
+        institution: "University of Hong Kong",
+        degree: "Bachelor's Degree",
+        duration: "May 2009 – May 2013",
+        description: "Bachelor's degree with focus on computer science and engineering fundamentals."
       }
     ]
   },
