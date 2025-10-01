@@ -66,7 +66,7 @@ export const profileConfig: ProfileConfig = {
     title: "Full Stack Developer",
     subtitle: "Building amazing digital experiences",
     bio: "Passionate full-stack developer with 5+ years of experience creating scalable web applications. I love turning complex problems into simple, beautiful, and intuitive solutions.",
-    location: "San Francisco, CA",
+    location: "Hong Kong",
     email: "john.doe@email.com",
     phone: "+1 (555) 123-4567",
     website: "https://johndoe.dev",
