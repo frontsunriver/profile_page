@@ -12,7 +12,7 @@ const Hero = () => {
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Hi, I'm{' '}
+            Hi, I&apos;m{' '}
             <span className="text-blue-600">{profileConfig.personal.name}</span>
           </h1>
           

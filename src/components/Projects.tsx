@@ -81,7 +81,7 @@ const Projects = () => {
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">Interested in working together?</h3>
             <p className="text-lg mb-6 opacity-90">
-              Let's discuss your next project and bring your ideas to life
+              Let&apos;s discuss your next project and bring your ideas to life
             </p>
             <a
               href="#contact"
