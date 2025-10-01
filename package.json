@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "build:static": "next build",
-    "vercel-build": "next build && node copy-build.js",
+    "vercel-build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
