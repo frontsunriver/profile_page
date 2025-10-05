@@ -97,6 +97,36 @@ const Hero = () => {
               </a>
             )}
           </div>
+          {/* GitHub + Email paragraph */}
+          <p className="mt-4 text-sm text-gray-600">
+            {profileConfig.personal.github && (
+              <>
+                GitHub: {""}
+                <a
+                  href={profileConfig.personal.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-gray-900"
+                >
+                  {profileConfig.personal.github}
+                </a>
+              </>
+            )}
+            {profileConfig.personal.github && profileConfig.personal.email && (
+              <span className="mx-2">|</span>
+            )}
+            {profileConfig.personal.email && (
+              <>
+                Email: {""}
+                <a
+                  href={`mailto:${profileConfig.personal.email}`}
+                  className="underline hover:text-gray-900"
+                >
+                  {profileConfig.personal.email}
+                </a>
+              </>
+            )}
+          </p>
         </div>
       </div>
     </section>

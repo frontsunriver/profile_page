@@ -98,15 +98,17 @@ const Footer = () => {
                   {profileConfig.personal.email}
                 </a>
               </p>
-              <p className="text-gray-300">
-                <span className="font-medium">Phone:</span>{' '}
-                <a
-                  href={`tel:${profileConfig.personal.phone}`}
-                  className="hover:text-white transition-colors"
-                >
-                  {profileConfig.personal.phone}
-                </a>
-              </p>
+              {profileConfig.personal.phone && (
+                <p className="text-gray-300">
+                  <span className="font-medium">Phone:</span>{' '}
+                  <a
+                    href={`tel:${profileConfig.personal.phone}`}
+                    className="hover:text-white transition-colors"
+                  >
+                    {profileConfig.personal.phone}
+                  </a>
+                </p>
+              )}
               <p className="text-gray-300">
                 <span className="font-medium">Location:</span>{' '}
                 {profileConfig.personal.location}

@@ -11,6 +11,8 @@ export interface ProfileConfig {
     linkedin: string;
     github: string;
     twitter: string;
+    telegram?: string;
+    discord?: string;
   };
   experience: {
     title: string;
@@ -69,12 +71,14 @@ export const profileConfig: ProfileConfig = {
     subtitle: "Building amazing digital experiences",
     bio: "Passionate senior full stack engineer with 11+ years of experience creating scalable web and mobile applications. I love turning complex problems into simple, beautiful, and intuitive solutions.",
     location: "Hong Kong",
-    email: "john.doe@email.com",
-    phone: "+1 (555) 123-4567",
-    website: "https://johndoe.dev",
-    linkedin: "https://linkedin.com/in/johndoe",
+    email: "seriousman217winter@email.com",
+    phone: "",
+    website: "https://wangzeongxiang.vercel.app/",
+    linkedin: "",
     github: "https://github.com/frontsunriver",
-    twitter: "https://twitter.com/johndoe"
+    twitter: "",
+    telegram: "https://t.me/sunriver0217",
+    discord: "https://discord.com/users/1335901345793966123"
   },
   experience: {
     title: "Experience",
@@ -190,7 +194,7 @@ export const profileConfig: ProfileConfig = {
     items: [
       {
         institution: "University of Hong Kong",
-        degree: "Bachelor's Degree",
+        degree: "Bachelor's Degree of Computer Science",
         duration: "May 2009 – May 2013",
         description: "Bachelor's degree with focus on computer science and engineering fundamentals."
       }
