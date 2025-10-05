@@ -170,7 +170,7 @@ export const profileConfig: ProfileConfig = {
     title: "Featured Projects",
     items: [
       {
-        name: "Luxury House Booking Platform",
+        name: "Luxury Villa Booking Platform",
         description: "A luxury villa/house booking order system in Croatia built with PHP/Laravel, featuring real-time updates via WebSockets, Airbnb integration for listings/reservations, and robust availability management.",
         technologies: ["PHP", "Laravel", "MySQL", "WebSockets", "Airbnb API"],
         github: "",
