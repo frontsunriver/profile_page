@@ -13,11 +13,11 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="flex gap-6">
           {profileConfig.skills.categories.map((category, categoryIndex) => (
             <div
               key={categoryIndex}
-              className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300"
+              className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 flex-1 min-w-0"
             >
               <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">
                 {category.name}
@@ -44,7 +44,7 @@ const Skills = () => {
             What I Do
           </h3>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="h-8 w-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -78,6 +78,18 @@ const Skills = () => {
               <h4 className="text-xl font-semibold text-gray-900 mb-3">DevOps & Deployment</h4>
               <p className="text-gray-600">
                 Implementing CI/CD pipelines and managing cloud infrastructure for optimal performance.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="h-8 w-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 2h10a2 2 0 012 2v16a2 2 0 01-2 2H7a2 2 0 01-2-2V4a2 2 0 012-2zm0 0h10M9 20h6" />
+                </svg>
+              </div>
+              <h4 className="text-xl font-semibold text-gray-900 mb-3">Mobile Development</h4>
+              <p className="text-gray-600">
+                Building cross‑platform mobile apps with React Native and Ionic for iOS and Android.
               </p>
             </div>
           </div>

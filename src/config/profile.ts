@@ -71,7 +71,7 @@ export const profileConfig: ProfileConfig = {
     subtitle: "Building amazing digital experiences",
     bio: "Passionate senior full stack engineer with 11+ years of experience creating scalable web and mobile applications. I love turning complex problems into simple, beautiful, and intuitive solutions.",
     location: "Hong Kong",
-    email: "seriousman217winter@email.com",
+    email: "seriousman217winter@gmail.com",
     phone: "",
     website: "https://wangzeongxiang.vercel.app/",
     linkedin: "",
@@ -144,19 +144,23 @@ export const profileConfig: ProfileConfig = {
     categories: [
       {
         name: "Frontend",
-        items: ["React", "Next.js", "TypeScript", "Vue.js", "Tailwind CSS", "Sass", "HTML5", "CSS3"]
+        items: ["React", "Next.js", "Vue.js", "Angular", "Tailwind CSS", "Sass", "HTML5", "CSS3"]
       },
       {
         name: "Backend",
-        items: ["Node.js", "Express.js", "Python", "Django", "PostgreSQL", "MongoDB", "Redis"]
+        items: ["Node.js", "Express.js", "Python", "Django", "PostgreSQL", "MongoDB", "Redis", "Nest.js", "Spring Boot"]
       },
       {
         name: "DevOps & Tools",
-        items: ["AWS", "Docker", "Kubernetes", "Git", "CI/CD", "Linux", "Nginx"]
+        items: ["AWS", "Azure", "Docker", "Kubernetes", "Git", "CI/CD", "Linux", "Nginx"]
+      },
+      {
+        name: "Mobile",
+        items: ["React Native", "Ionic", "Cordova", "Android (Java/Kotlin)"]
       },
       {
         name: "Languages",
-        items: ["JavaScript", "TypeScript", "Python", "Java", "Go", "SQL"]
+        items: ["PHP", "JavaScript", "TypeScript", "Python", "Java", "Kotlin", "Go", "SQL"]
       }
     ]
   },

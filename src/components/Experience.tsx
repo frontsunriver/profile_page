@@ -55,9 +55,19 @@ const Experience = () => {
                       </span>
                     </div>
                     
-                    <p className="text-gray-600 mb-4">
-                      {exp.description}
-                    </p>
+                    {/* Description as bullet points */}
+                    <div className="mb-4 space-y-2">
+                      {(exp.description || '')
+                        .split(';')
+                        .map(item => item.trim())
+                        .filter(Boolean)
+                        .map((point, i) => (
+                          <div key={i} className="flex items-start">
+                            <span className="mt-2 mr-2 h-2 w-2 rounded-full bg-blue-600 flex-shrink-0"></span>
+                            <p className="text-gray-600">{point ? point[0].toUpperCase() + point.slice(1) : ''}</p>
+                          </div>
+                        ))}
+                    </div>
                     
                     <div className="flex flex-wrap gap-2">
                       {exp.technologies.map((tech, techIndex) => (
