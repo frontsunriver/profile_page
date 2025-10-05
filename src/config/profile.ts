@@ -42,6 +42,8 @@ export interface ProfileConfig {
       github: string;
       live: string;
       image: string;
+      useImage?: boolean;
+      bgColor?: string;
     }>;
   };
   education: {
@@ -126,7 +128,7 @@ export const profileConfig: ProfileConfig = {
         location: "Tel Aviv‑Yafo, Tel Aviv, Israel",
         workMode: "Remote",
         description: "Designed backend with Java Spring Boot and Grails, integrated AWS S3 storage and built a security module; implemented UI/UX with React, Angular, and Vue.js; developed REST APIs with Python and integrated them into front‑end applications; designed data structures and managed MongoDB; continuously updated UI/UX and integrated APIs; deployed to AWS Lightsail and maintained infrastructure; worked in Agile teams; developed hybrid mobile apps using React Native and Ionic Cordova.",
-        technologies: ["Java", "Spring Boot", "Grails", "AWS S3", "Security", "React", "Angular", "Vue.js", "Python", "REST", "MongoDB", "AWS Lightsail", "React Native", "Ionic", "Cordova", "Agile"]
+        technologies: ["Java", "Spring Boot", "Grails", "AWS S3", "Docker", "Security", "React", "Angular", "Vue.js", "Python", "REST", "MongoDB", "AWS Lightsail", "React Native", "Ionic", "Cordova", "Agile"]
       },
       {
         company: "MasDat Solutions LLP",
@@ -168,28 +170,33 @@ export const profileConfig: ProfileConfig = {
     title: "Featured Projects",
     items: [
       {
-        name: "E-Commerce Platform",
-        description: "A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard.",
-        technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
-        github: "https://github.com/frontsunriver/ecommerce-platform",
-        live: "https://ecommerce-demo.com",
-        image: "/images/ecommerce.jpg"
+        name: "Luxury House Booking Platform",
+        description: "A luxury villa/house booking order system in Croatia built with PHP/Laravel, featuring real-time updates via WebSockets, Airbnb integration for listings/reservations, and robust availability management.",
+        technologies: ["PHP", "Laravel", "MySQL", "WebSockets", "Airbnb API"],
+        github: "",
+        live: "https://luxurycroatiaretreats.com",
+        image: "/luxurycroatiaretreats-log.png",
+        useImage: true,
+        bgColor: "#f3f4f6"
       },
       {
-        name: "Task Management App",
-        description: "A collaborative task management application with real-time updates, team collaboration features, and project tracking.",
-        technologies: ["Next.js", "TypeScript", "MongoDB", "Socket.io", "Tailwind CSS"],
-        github: "https://github.com/frontsunriver/task-manager",
-        live: "https://taskmanager-demo.com",
-        image: "/images/taskmanager.jpg"
+        name: "Vaultka Crypto Platform",
+        description: "A crypto application built with React and Next.js, using NestJS for the backend with Web3 integration and Wagmi for wallet connectivity.",
+        technologies: ["React", "Next.js", "NestJS", "Web3", "Wagmi", "TypeScript"],
+        github: "",
+        live: "https://vaultka.com",
+        image: "/vaultka-logo.png",
+        useImage: true,
+        bgColor: "#5571ff"
       },
       {
-        name: "Weather Dashboard",
-        description: "A responsive weather dashboard with location-based forecasts, interactive maps, and data visualization.",
-        technologies: ["Vue.js", "Chart.js", "OpenWeather API", "PWA"],
-        github: "https://github.com/frontsunriver/weather-dashboard",
-        live: "https://weather-demo.com",
-        image: "/images/weather.jpg"
+        name: "React Native App Template",
+        description: "A React Native template (Expo) tailored for building mobile apps, including a job posting platform similar to Freelancer/Upwork.",
+        technologies: ["React Native", "Expo", "JavaScript", "Tailwind CSS"],
+        github: "https://github.com/frontsunriver/sierra-react-native.git",
+        live: "",
+        image: "/images/weather.jpg",
+        bgColor: "#111827"
       }
     ]
   },
