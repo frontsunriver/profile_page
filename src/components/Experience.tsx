@@ -47,6 +47,13 @@ const Experience = () => {
                     <h4 className="text-lg font-semibold text-gray-700 mb-3">
                       {exp.company}
                     </h4>
+                    <div className="flex flex-wrap items-center gap-3 mb-4 text-sm">
+                      <span className="text-gray-500">{exp.location}</span>
+                      <span className="hidden sm:inline text-gray-300">•</span>
+                      <span className="px-2 py-0.5 bg-gray-100 text-gray-700 rounded-full">
+                        {exp.workMode}
+                      </span>
+                    </div>
                     
                     <p className="text-gray-600 mb-4">
                       {exp.description}

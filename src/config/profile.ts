@@ -18,6 +18,8 @@ export interface ProfileConfig {
       company: string;
       position: string;
       duration: string;
+      location: string;
+      workMode: string; // Remote | Onsite | Hybrid
       description: string;
       technologies: string[];
     }>;
@@ -63,9 +65,9 @@ export interface ProfileConfig {
 export const profileConfig: ProfileConfig = {
   personal: {
     name: "Wang Zeng Xiang",
-    title: "Senior Full Stack Engineer",
+    title: "Senior Software Engineer",
     subtitle: "Building amazing digital experiences",
-    bio: "Passionate senior full stack engineer with 11+ years of experience creating scalable web applications. I love turning complex problems into simple, beautiful, and intuitive solutions.",
+    bio: "Passionate senior full stack engineer with 11+ years of experience creating scalable web and mobile applications. I love turning complex problems into simple, beautiful, and intuitive solutions.",
     location: "Hong Kong",
     email: "john.doe@email.com",
     phone: "+1 (555) 123-4567",
@@ -78,25 +80,58 @@ export const profileConfig: ProfileConfig = {
     title: "Experience",
     items: [
       {
-        company: "Tech Corp",
-        position: "Senior Full Stack Developer",
-        duration: "2022 - Present",
-        description: "Lead development of microservices architecture serving 1M+ users. Implemented CI/CD pipelines reducing deployment time by 60%.",
-        technologies: ["React", "Node.js", "TypeScript", "AWS", "Docker", "Kubernetes"]
+        company: "Genius Tech Inc",
+        position: "Senior Software Engineer",
+        duration: "12/2024 - Present",
+        location: "Toronto, Canada",
+        workMode: "Remote",
+        description: "Designed the POS product Ionic Cordova app; integrated payments with Moneris and Global Payments devices; developed backend using Node/Express and MongoDB; designed Node.js APIs and integrated with Ionic frontends; built a printing server to resolve printing command queue issues.",
+        technologies: ["Ionic", "Cordova", "Node.js", "Express", "MongoDB", "Moneris", "Global Payments", "Printing"]
       },
       {
-        company: "StartupXYZ",
+        company: "Posley Capital",
+        position: "Senior Software Engineer",
+        duration: "07/2022 - 01/2025",
+        location: "Hong Kong, Hong Kong",
+        workMode: "Onsite",
+        description: "Integrated Web3.js and Ethers.js into Next.js and web applications; developed a crypto e‑commerce storefront with VeChain USD‑locked checkout and automated shipping APIs; designed Node.js APIs and integrated them with React frontends; migrated legacy Python apps to modern Node.js/React stacks.",
+        technologies: ["Web3.js", "Ethers.js", "Next.js", "Node.js", "React", "VeChain", "Shipping APIs", "Python"]
+      },
+      {
+        company: "Nuon",
+        position: "Senior Project Manager",
+        duration: "02/2020 - 08/2022",
+        location: "Amsterdam, North Holland, Netherlands",
+        workMode: "Remote",
+        description: "Integrated Web3.js and Ethers.js into React, Next.js and Vue.js web applications; implemented multiple wallet support using RainbowKit and Wagmi; developed smart contracts with Hardhat and integrated with OpenSea; built The Graph backend for tracking events and storing statistics; maintained and updated projects per business requirements.",
+        technologies: ["Web3.js", "Ethers.js", "React", "Next.js", "Vue.js", "RainbowKit", "Wagmi", "Hardhat", "OpenSea", "The Graph"]
+      },
+      {
+        company: "Nuon",
+        position: "Full-stack Developer",
+        duration: "05/2019 - 06/2020",
+        location: "Amsterdam, North Holland, Netherlands",
+        workMode: "Remote",
+        description: "Developed enterprise‑scale financial applications with React/TypeScript and Java Spring Boot; created modular frontend component libraries with Material UI; improved app performance by ~30% via code‑splitting, caching, and database query optimization; led a team of 4 developers, conducting code reviews, mentorship, and sprint planning.",
+        technologies: ["React", "TypeScript", "Java", "Spring Boot", "Material UI", "Performance", "Caching", "Database Optimization", "Leadership"]
+      },
+      {
+        company: "Maryoku",
         position: "Full Stack Developer",
-        duration: "2020 - 2022",
-        description: "Built and maintained web applications using modern JavaScript frameworks. Collaborated with design team to implement responsive UIs.",
-        technologies: ["Vue.js", "Express.js", "MongoDB", "PostgreSQL", "Redis"]
+        duration: "04/2015 - 01/2020",
+        location: "Tel Aviv‑Yafo, Tel Aviv, Israel",
+        workMode: "Remote",
+        description: "Designed backend with Java Spring Boot and Grails, integrated AWS S3 storage and built a security module; implemented UI/UX with React, Angular, and Vue.js; developed REST APIs with Python and integrated them into front‑end applications; designed data structures and managed MongoDB; continuously updated UI/UX and integrated APIs; deployed to AWS Lightsail and maintained infrastructure; worked in Agile teams; developed hybrid mobile apps using React Native and Ionic Cordova.",
+        technologies: ["Java", "Spring Boot", "Grails", "AWS S3", "Security", "React", "Angular", "Vue.js", "Python", "REST", "MongoDB", "AWS Lightsail", "React Native", "Ionic", "Cordova", "Agile"]
       },
       {
-        company: "WebDev Agency",
-        position: "Frontend Developer",
-        duration: "2019 - 2020",
-        description: "Developed responsive websites and web applications for various clients. Focused on performance optimization and user experience.",
-        technologies: ["React", "JavaScript", "CSS3", "HTML5", "Sass"]
+        company: "MasDat Solutions LLP",
+        position: "Software Developer Internship",
+        duration: "11/2013 - 09/2014",
+        location: "Bengaluru, India",
+        workMode: "Remote",
+        description: "Contributed to web and desktop application development in C++, C#, and PHP with gradual transition into full‑stack web work; built internal tools for data processing and reporting using JavaScript and MySQL; assisted in migration of legacy codebases to modern JavaScript frameworks.",
+        technologies: ["C++", "C#", "PHP", "JavaScript", "MySQL", "Migration"]
       }
     ]
   },
